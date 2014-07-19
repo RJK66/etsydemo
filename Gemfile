@@ -11,7 +11,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem "paperclip", "~> 3.0"
-
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 group :production do |variable|
 	gem 'pg'
 	gem 'rails_12factor'
